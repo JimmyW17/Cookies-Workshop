@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: rgb(245, 115, 56);
+}
+
+.floatLeft {
+  float: left;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.center {
+  display: inline-block;
+  margin: 0 auto;
+  width: 33%;
+  text-align: center;
+}
+
+.floatRight {
+  float: right;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.floatLeft, .center, .floatRight {
+  /*background-color: black;*/
+  color: white;
+}
+
+#cookie1, #cookie2, #cookie3 {
+  top: -900px;
+}
+
+#deleteCookies {
+  margin: 0 auto;
+  display: block;
+}
+
+#myDiv {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+img {
+  position: absolute;
+  margin-left: -150px;
+  height: 200px;
+}
